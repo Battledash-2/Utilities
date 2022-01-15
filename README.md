@@ -18,7 +18,7 @@ changePointer(myPointer); // run the changePointer function and pass in the poin
 console.log(myPointer.get()); // log the pointer's new value ("different")
 ```
 
-### You can initialize the colors like this. The only argument is safe mode. If you set safe mode to `true`, it won't override the String.prototype.
+### You can initialize the colors like this. The only argument is safe mode. If you set safe mode to `true`, it won't override the String.prototype. (if you change the `false` to `true`, it will enable safe mode which will act the same as the pointer safe mode)
 ```js
 const { Terminal } = require("utiliz");
 
