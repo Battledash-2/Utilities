@@ -1,4 +1,4 @@
-const { Pointer, Terminal, StringUtil, IOUtil, Time } = require("../tools"); // require the utilities
+const { Pointer, Terminal, StringUtil, IOUtil, Time } = require("../"); // require the utilities
 
 { // pointer example
     const myPointer = new Pointer("hello"); // create a new pointer
