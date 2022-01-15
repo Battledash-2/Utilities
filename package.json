@@ -1,0 +1,33 @@
+{
+  "name": "utiliz",
+  "version": "1.0.0",
+  "description": "utiliz is a module for completing simple tasks like: stopwatches, colored text in console, simple cli tools and more!",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node ./tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Battledash-2/Utilities.git"
+  },
+  "keywords": [
+    "utilities",
+    "helpful",
+    "tools",
+    "terminal",
+    "colors",
+    "node",
+    "console",
+    "io",
+    "readline"
+  ],
+  "author": "Battledash-2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Battledash-2/Utilities/issues"
+  },
+  "homepage": "https://github.com/Battledash-2/Utilities#readme"
+}
