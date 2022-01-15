@@ -1,6 +1,6 @@
 {
   "name": "utiliz",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "utiliz is a module for completing simple tasks like: stopwatches, colored text in console, simple cli tools and more!",
   "main": "index.js",
   "directories": {
