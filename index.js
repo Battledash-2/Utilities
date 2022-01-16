@@ -17,7 +17,7 @@ class _wrapper { // a wrapper for objects
         return this.v;
     }
 }
-exports.Pointer = class {
+module.exports.Pointer = class {
     constructor(value) {
         if (typeof value === "object") return new _wrapper(value);
         this.v = value;
@@ -44,7 +44,7 @@ exports.Pointer = class {
  * Colored console.log
  * (this is from my terminalcolors.js module)
  */
-exports.Terminal = class {
+module.exports.Terminal = class {
     static init(safe=false) { // if 'safe' is true, we won't override string.prototype (overriding string.prototype in versions like v12 which is used on sites like codesandbox and repl.it unless you use a bash repl [on replit])
         if (safe == true) return Color;
 
@@ -82,7 +82,7 @@ const StringUtil = {
         return Color.bold(Color.rgb(247, 166, 134, "Urgent") + ":") + " " + Color.rgb(255, 255, 255, warn || this);
     },
 }
-exports.StringUtil = class {
+module.exports.StringUtil = class {
     static init(safe=false) {
         if (safe == true) return StringUtil;
         for (let name in StringUtil) {
@@ -95,7 +95,7 @@ exports.StringUtil = class {
 /**
  * IO Utility
  */
-exports.IOUtil = class {
+module.exports.IOUtil = class {
     constructor(input=process.stdin, output=process.stdout) {
         this.io = IO.createInterface({
             input,
@@ -121,7 +121,7 @@ exports.IOUtil = class {
 /**
  * Time utility 
  */
-exports.Time = class {
+module.exports.Time = class {
     constructor() {
         this.date = new Date();
     }
